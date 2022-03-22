@@ -47,3 +47,8 @@ function cakes(recipe, available) {
 - Fulfil Education - learning center: <https://fullfil-education.netlify.app>
 - Landing page - landing page: <https://landing-page-aqilbek.netlify.app>
 - Personal Blog - blog: <https://vigorous-goodall-904c04.netlify.app>
+
+## Courses
+- Udacity(Nanodegree Front-end Programme) - [link](https://confirm.udacity.com/QZ5X44QE)
+- Andrei Neageoi (Advanced Javascipt Concepts)
+- Rs school (currently)
