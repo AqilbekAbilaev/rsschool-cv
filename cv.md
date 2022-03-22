@@ -8,7 +8,7 @@
 + Discord Username: **@AqilbekAbilaev**
 
 ## Priorities
-I am the person who considers learning and helping others by implementing as the purpose of life. I am enthusiast about the cutting-edge technology. Programming is the field by which I can contribute to the development of humanity most.
+I am the person who considers learning and helping others by implementing as the purpose of life. I am enthusiast about the cutting-edge technology. ***Programming*** is the field by which I can contribute to the development of _humanity_ most.
 
 ## Skills
   + ### Soft skills
@@ -40,3 +40,10 @@ function cakes(recipe, available) {
     return min < 1 ? 0 : Math.floor(min);
 }
 ```
+
+## Projects
+- Ansor Talim - learning center: <https://github.com/AqilbekAbilaev/ansor-talim>
+- Travel App - travellers' helper app: <https://github.com/AqilbekAbilaev/travel>
+- Fulfil Education - learning center: <https://fullfil-education.netlify.app>
+- Landing page - landing page: <https://landing-page-aqilbek.netlify.app>
+- Personal Blog - blog: <https://vigorous-goodall-904c04.netlify.app>
