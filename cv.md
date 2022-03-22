@@ -1,4 +1,4 @@
-# Aqilbek Abilaev     ![](./assets/photo_2022-03-22_16-38-09.jpg)
+# Aqilbek Abilaev     ![](./assets/photo_2022-03-22_16-38-09.jpg = 250x250)
 
 ## Contact
 + Mobile Phone: [Here](+998932005056)
