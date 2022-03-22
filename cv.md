@@ -9,3 +9,21 @@
 
 ## Priorities
 I am the person who considers learning and helping others by implementing as the purpose of life. I am enthusiast about the cutting-edge technology. Programming is the field by which I can contribute to the development of humanity most.
+
+## Skills
+  + ### Soft skills
+    - Adaptive
+    - Communication
+    - Flexible
+    - Problem-solving
+    - Meticulous
+  + ### Technical skills
+    - Git/Github (version control)
+    - HTML5 and HTML
+    - CSS3
+    - Bootstrap
+    - SCSS
+    - Javascript
+    - Nodejs
+    - Expressjs
+    - npm packages
