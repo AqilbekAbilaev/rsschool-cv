@@ -27,3 +27,16 @@ I am the person who considers learning and helping others by implementing as the
     - Nodejs
     - Expressjs
     - npm packages
+
+## Code Example
+```javascript
+function cakes(recipe, available) {
+    if (!Object.keys(recipe).every(item => available[item] || available[item] < recipe[item])) return 0;
+    let array = [];
+    Object.keys(recipe).forEach(item => {
+        array.push(available[item] / recipe[item])
+    })
+    let min = Math.min(...array)
+    return min < 1 ? 0 : Math.floor(min);
+}
+```
