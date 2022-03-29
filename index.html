@@ -71,6 +71,21 @@
                     </ul>
                 </div>
             </section>
+
+            <section class="code-example">
+                <h2>Code Example</h2>
+                <pre>
+                    function cakes(recipe, available) {
+                        if (!Object.keys(recipe).every(item => available[item] || available[item] < recipe[item])) return 0;
+                        let array = [];
+                        Object.keys(recipe).forEach(item => {
+                            array.push(available[item] / recipe[item])
+                        })
+                        let min = Math.min(...array)
+                        return min < 1 ? 0 : Math.floor(min);
+                    }
+                </pre>
+            </section>
         </div>
     </main>
 </body>
