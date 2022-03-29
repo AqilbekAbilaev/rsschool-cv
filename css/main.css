@@ -68,11 +68,31 @@ body {
     color: #023e8a;
 }
 
+.main .container > * {
+    margin: 1rem 0;
+}
+
 .contact__item {
-    margin-top: 1rem;
     margin-left: 1rem;
 }
 
 .contact__item > * {
     padding: .1rem;
+}
+
+section {
+    padding: 1rem 0;
+}
+
+section > h2 {
+    margin-bottom: 1rem;
+}
+
+.skill__item {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill__item ul {
+    font-size: 1.2rem;
 }
