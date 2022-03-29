@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background: rgb(72,202,228);
+    background: linear-gradient(32deg, rgba(72,202,228,1) 0%, rgba(202,240,248,1) 97%);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -18,11 +23,6 @@ html {
     display: flex;
 }
 
-header {
-    background: rgb(72,202,228);
-    background: linear-gradient(32deg, rgba(72,202,228,1) 0%, rgba(202,240,248,1) 97%);
-    height: 100vh;
-}
 
 .nav {
     justify-content: space-between;
@@ -53,7 +53,7 @@ header {
 }
 
 .header__hero {
-    padding: 10rem 0;
+    padding: 10rem 0 15rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -66,4 +66,13 @@ header {
 
 .header__info {
     color: #023e8a;
+}
+
+.contact__item {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.contact__item > * {
+    padding: .1rem;
 }
