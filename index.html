@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav flex">
+                <a class="nav__logo" href="index.html">Devalyus</a>
+                <ul class="flex nav__item">
+                    <li class="nav__list"><a class="nav__link" href="#contact">Contact</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#contact">Objectives</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#contact">Skills</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#contact">Projects</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#contact">Courses</a></li>
+                </ul>
+            </nav>
+            <div class="header__hero flex">
+                <h1 class="header__title">Aqilbek Abilaev</h1>
+                <p class="header__info">An enthusiastic developer about cutting-edge technology. Javascript Developer.</p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+
+            <section class="contact">
+                <h2>Contact</h2>
+                <ul class="contact__item">
+                    <li>Mobile Phone: +998932005056</li>
+                    <li>Github : <a href="https://github.com/AqilbekAbilaev">here</a></li>
+                    <li>LinkedIn : <a href="https://www.linkedin.com/in/aqilbek-abilaev/">here</a></li>
+                    <li>Telegram username : <b>@Devalyus</b></li>
+                    <li>Discord username : <b>@AqilbekAbilaev</b></li>
+                </ul>
+            </section>
+
+            <section class="priority">
+                <h2>Priority</h2>
+                <p>I am the person who considers learning and helping others by implementing as the purpose of life. I am enthusiast about the cutting-edge technology. Programming is the field by which I can contribute to the development of humanity most.</p>
+            </section>
+
+            <section class="skill">
+                <h2>Skills</h2>
+                <div class="skill__item flex">
+                    <ul>Soft Skills
+                        <li>Adaptive</li>
+                        <li>Communication</li>
+                        <li>Flexible</li>
+                        <li>Problem-solving</li>
+                        <li>Meticulous</li>
+                    </ul>
+                    <ul>Technical Skills
+                        <li>Git/Github (version control)</li>
+                        <li>HTML5 and HTML</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap</li>
+                        <li>SCSS</li>
+                        <li>Javascript</li>
+                        <li>Nodejs</li>
+                        <li>Expressjs</li>
+                        <li>npm packages</li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="code-example">
+                <h2>Code Example</h2>
+                <pre>
+                    function cakes(recipe, available) {
+                        if (!Object.keys(recipe).every(item => available[item] || available[item] < recipe[item])) return 0;
+                        let array = [];
+                        Object.keys(recipe).forEach(item => {
+                            array.push(available[item] / recipe[item])
+                        })
+                        let min = Math.min(...array)
+                        return min < 1 ? 0 : Math.floor(min);
+                    }
+                </pre>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Ansor Talim - learning center: <a href="https://github.com/AqilbekAbilaev/ansor-talim">link</a></li>
+                    <li>Travel App - travellers’ helper app: <a href="https://github.com/AqilbekAbilaev/travel">link</a></li>
+                    <li>Fulfil Education - learning center: <a href="https://fullfil-education.netlify.app">link</a></li>
+                    <li>Landing page - landing page: <a href="https://landing-page-aqilbek.netlify.app">link</a></li>
+                    <li>Personal Blog - blog: <a href="https://vigorous-goodall-904c04.netlify.app">link</a></li>
+                </ul>
+            </section>
+
+            <section class="courses">
+                <h2>Courses</h2>
+                <ul>
+                    <li>Udacity(Nanodegree Front-end Programme) : <a href="https://confirm.udacity.com/QZ5X44QE">link</a></li>
+                    <li>Andrei Neageoi (Advanced Javascript Concepts)</li>
+                    <li>RS school (currently)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer flex">
+        <div class="container">
+            <p>@Aqilbek Abilaev 2022 </p>
+        </div>
+    </footer>
+</body>
+</html>
