@@ -96,3 +96,10 @@ section > h2 {
 .skill__item ul {
     font-size: 1.2rem;
 }
+
+.footer {
+    background: #03045e;
+    padding: 3rem;
+    color: white;
+    font-weight: 100;
+}
